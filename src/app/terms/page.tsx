@@ -2,14 +2,8 @@
 
 import * as React from 'react';
 
-// import ContextProvider from '@/app/context/ContextProvider';
-// import WalletProvider from '@/app/context/WalletProvider';
-
 const Bounty = () => {
   return (
-    // <ContextProvider>
-    //   <WalletProvider>
-    // <Header />
     <section className='px-5 lg:px-20 flex flex-col gap-x-5 text'>
       <h1 className='my-10 text-center '>Terms of Service</h1>
 
@@ -90,9 +84,6 @@ const Bounty = () => {
 
       <p className='mb-20 mt-10'>© 2024</p>
     </section>
-    // <Footer />
-    //   </WalletProvider>
-    // </ContextProvider>
   );
 };
 
